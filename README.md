@@ -7,5 +7,6 @@ This repository has a couple of purposes.
 * Second, and perhaps more importantly, it will be used to demonstrate the ability to implement a polyglot monorepo.
 
 ## Requirements
-There is really on one requirement, and that is that all of the projects must be able to be run.
-Which means that the repository must be configured to properly support each project's coding language.
+There are also two requirements.
+1. All of the projects must be able to be run. Which means that the repository must be configured to properly support each project's coding language.
+2. Each project should be easily exportable. Which means that the projects should be callable from other projects inside and outside of the repo.
