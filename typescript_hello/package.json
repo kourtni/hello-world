@@ -1,0 +1,14 @@
+{
+  "name": "typescript_hello",
+  "version": "1.0.0",
+  "description": "hello world monorepo example",
+  "scripts": {
+    "test": "pnpm run -r test",
+    "dev": "pnpm --filter website dev"
+  },
+  "author": "kourtni.marshall@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
